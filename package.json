@@ -1,0 +1,32 @@
+{
+  "name": "tododo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "dev": "concurrently \"npm:css\" \"npm:serve\"",
+    "css": "tailwindcss -i ./style.css -o ./output.css --watch",
+    "serve": "browser-sync start --proxy 'localhost:81/tododo' --files './**/*.php' './**/*.js' './output.css' --no-open --no-ui --no-notify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pvag/tododo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Pvag/tododo/issues"
+  },
+  "homepage": "https://github.com/Pvag/tododo#readme",
+  "devDependencies": {
+    "tailwindcss": "^4.1.11"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "browser-sync": "^3.0.4",
+    "concurrently": "^9.2.0",
+    "nodemon": "^3.1.10"
+  }
+}
