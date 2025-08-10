@@ -1,7 +1,7 @@
 {
   "name": "tododo",
   "version": "1.0.0",
-  "description": "To do list app with persistent data and users.",
+  "description": "To do list app with persistent data and users. Technologies: php, HTML, JS, CSS, MySQL, Apache",
   "main": "script.js",
   "scripts": {
     "dev": "concurrently \"npm:css\" \"npm:serve\"",
