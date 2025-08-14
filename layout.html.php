@@ -44,14 +44,15 @@
     }
 
     main {
+      height: 70vh;
       max-width: 900px;
       margin: 2rem auto;
-      background: #fff;
       padding: 2rem;
       border-radius: 8px;
     }
 
     footer {
+      height: 20vh;
       background: #222;
       color: #fff;
       text-align: center;
@@ -66,8 +67,8 @@
     <h1>TODOOS !</h1>
     <nav>
       <ul>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="index.php?page=addtodo">Aggiungi TODO</a></li>
+        <li><a href="index.php?page=list-todo">Lista TODO</a></li>
+        <li><a href="index.php?page=add-todo">Aggiungi TODO</a></li>
       </ul>
     </nav>
   </header>
